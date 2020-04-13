@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    font-family: 'Podkova', serif;
+}
+
+#menu-bar 
+{
+    width: 100%;
+    background: rgb(91, 104, 156);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu-bar a
+{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#bottom-site
+{
+    width: 100%;
+    background: rgb(91, 104, 156);
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+#menu-bar ul
+{
+    padding: 0;
+}
+
+#menu-bar li
+{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: large;
+    border: 1px black solid;
+    left: 0;
+}
+
+#math-equation
+{
+    top: 60px;
+    background: darkgrey;
+    position: relative;
+    text-align: center;
+}
+
+#answer
+{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+
+#image
+{
+    text-align: center;
+}
+#image img
+{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#page-content
+{
+    position: absolute;
+    top: 60px;
+}
+
+#page-content p
+{
+    color: darksalmon;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.form-button
+{
+    width: 150px;
+    height: 50px;
+    font-family: 'Podkova', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.equation
+{
+    font-family: 'Podkova', serif;
+    font-weight: bold;
+    font-size: larger;
+}

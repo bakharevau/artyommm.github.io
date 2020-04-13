@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <<link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="menu-bar">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Почитать про математику</a></li>
+        </ul>
+    </div>
+    <div id="image">
+        <img src="img/math.jpg" alt="image_here">
+    </div>
+    <div id="math-equation">
+        <div>
+            <button class="form-button" id="get-equation"> Получить пример </button>
+        </div>
+        <form id="equation-form">
+            <div>
+                <label class="equation" id="x1"></label>
+                <label class="equation" id="question"></label>
+                <label class="equation" id="x2"></label>
+                <input id="answer" required type="number" name="answer">
+                <button class="form-button" id="send-answer"> Проверить </button>
+            </div>
+            <div class="equation" id="message">
+
+            </div>
+        </form>
+    </div>
+
+
+    <div id="bottom-site">
+        <p>Все права защищены.</p>
+    </div>
+    <script src="js/math_equation.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
